@@ -1,0 +1,48 @@
+/* Wrapper for entire contact info page content */
+
+.contact-items-wrapper {
+  padding: 10px 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+/* Individual contact infos */
+
+.contact-item-wrapper {
+  position: relative;
+  display: flex; /* line up content ... */
+  flex-direction: column; /* ... vertically */
+  justify-content: center; /* align along main-axis */
+  align-items: center; /* align along cross-axis */
+  text-align: center;
+}
+
+/* Individual contact infos: Background */
+
+.contact-item-wrapper .contact-img-background {
+  height: 180px;
+  width: 100%; /* automatically adjust width */
+  background-size: cover; /* scale bg to full its div */
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(20%);
+}
+
+/* Individual contact infos: Data */
+
+.contact-item-wrapper .subtitle {
+  position: absolute;
+  font-weight: 600;
+  color: white;
+}
+
+.contact-item-wrapper > .subtitle > a {
+  text-decoration: none;
+  color: lightseagreen;
+  transition: color 0.5s;
+}
+
+.contact-item-wrapper > .subtitle > a:hover {
+  color: white;
+}

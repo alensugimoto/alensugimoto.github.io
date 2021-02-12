@@ -1,0 +1,73 @@
+/* Wrapper for entire profolio page content */
+
+.portfolio-items-wrapper { /* arrange content on a grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Projects */
+
+.portfolio-item-wrapper {
+  position: relative; /* allow absolute-positioned, direct children */
+}
+
+/* Projects: Background */
+
+.portfolio-item-wrapper .portfolio-img-background {
+  height: 300px;
+  width: 100%; /* automatically adjust width */
+  background-size: cover; /* scale bg to full its div */
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: filter 1s;
+}
+
+.portfolio-item-wrapper:hover .portfolio-img-background {
+  filter: brightness(10%);
+}
+
+/* Projects: Link and Description */
+
+.portfolio-item-wrapper .item-text-wrapper {
+  position: absolute; /* position this relative to the direct parent */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex; /* line up content ... */
+  flex-direction: column; /* ... vertically */
+  justify-content: center; /* align along main-axis */
+  align-items: center; /* align along cross-axis */
+  text-align: center;
+  gap: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.item-text-wrapper .button {
+  font-size: 18px;
+  color: transparent;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  transition: background-color 1s, color 1s;
+}
+
+.item-text-wrapper .button:hover {
+  background-color: grey;
+}
+
+.item-text-wrapper:hover .button {
+  color: white; /* button visible */
+}
+
+.item-text-wrapper .subtitle {
+  font-weight: 600;
+  transition: color 1s; /* animate color */
+  color: transparent;
+}
+
+.item-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+}
