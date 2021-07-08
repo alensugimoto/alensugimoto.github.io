@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+[![License](https://img.shields.io/github/license/alensugimoto/alensugimoto.github.io)](https://raw.githubusercontent.com/alensugimoto/alensugimoto.github.io/master/LICENSE)
+
 This repository contains the source code used to create my portfolio website.
 
 ## Development
