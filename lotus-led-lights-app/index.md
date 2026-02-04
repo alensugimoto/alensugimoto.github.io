@@ -3,7 +3,7 @@
 This app optimizes spreadsheets for mobile devices.
 
 Features:
-* Multiple options to open a file: device, Google Drive, Dropbox.
+* Multiple options to open a file: device, Google Drive.
 * Choose different file types: GSheet, Excel, HTML, ODS.
 * Compact view of spreadsheets.
 * Fetch latest version of file with one click.
@@ -24,7 +24,6 @@ By using this app, you are agreeing to our
 
 ### Trademark Notices
 
-- Dropbox and the Dropbox logo are trademarks of Dropbox, Inc.
 - Google Drive is a trademark of Google Inc. Use of this trademark is subject to Google Permissions.
 
 ### Help and Support
