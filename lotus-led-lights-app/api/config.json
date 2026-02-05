@@ -1,14 +1,14 @@
 {
   "android": {
     "min_supported_version": "0.0.1",
-    "latest_version": "2.3.0",
+    "latest_version": "2.4.0",
     "url": "https://play.google.com/store/apps/details?id=com.lotusledlights.merchandprice",
-    "whats_new": "- New MOQ column.\n- Bug fixes."
+    "whats_new": "- Updated list structure."
   },
   "ios": {
     "min_supported_version": "0.0.1",
-    "latest_version": "2.3.0",
+    "latest_version": "2.4.0",
     "url": "https://apps.apple.com/us/app/lotus-led-lights/id1528472145",
-    "whats_new": "- New MOQ column.\n- Bug fixes."
+    "whats_new": "- Updated list structure."
   }
 }
